@@ -24,7 +24,14 @@ Enter move (0-8):<br>
 If the cell you choose is already taken or you enter an invalid move, you will be prompted to try again.
 
 ## Algorithm <br>
-The AI opponent uses the minimax algorithm to select the best move. The minimax algorithm is a recursive algorithm that explores all possible future moves to find the best move for the current player.
+The AI opponent uses the minimax algorithm to select the best move. The minimax algorithm is a recursive algorithm that explores all possible future moves to find the best move for the current player.<br>
+
+
+
+# Tic Tac Toe using AlphaBeta Algorithm<br>
+This is a simple Tic Tac Toe game with an AI opponent that uses the minimax algorithm with alpha-beta pruning to select the best move.<br>
+## Algorithm
+The AI opponent uses the minimax algorithm with alpha-beta pruning to select the best move. The minimax algorithm is a recursive algorithm that explores all possible future moves to find the best move for the current player. Alpha-beta pruning is a technique used to optimize the minimax algorithm by cutting off branches of the search tree that are guaranteed to be worse than other branches already examined.<br>
 
 ## Future Improvements
 The game could be improved in several ways, such as:<br>
